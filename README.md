@@ -103,7 +103,7 @@ ffmpeg -version
 ### Step 1: Clone or Navigate to the Repository
 
 ```bash
-cd "/Applications/MaxPlay Assignment"
+cd "/Applications/Video Platform Assignment"
 ```
 
 ### Step 2: Install Dependencies
@@ -147,7 +147,7 @@ ffmpeg.setFfprobePath('/opt/homebrew/bin/ffprobe');
 
 **Terminal 1 - Start Backend:**
 ```bash
-cd "/Applications/MaxPlay Assignment"
+cd "/Applications/Video Platform Assignment"
 PORT=9876 npm run dev
 ```
 
@@ -159,7 +159,7 @@ Upload directories created successfully
 
 **Terminal 2 - Start Frontend:**
 ```bash
-cd "/Applications/MaxPlay Assignment/frontend"
+cd "/Applications/Video Platform Assignment/frontend"
 npm start
 ```
 
@@ -226,7 +226,7 @@ After upload, the video goes through:
 ## Project Structure
 
 ```
-MaxPlay Assignment/
+Video Platform Assignment/
 ├── README.md
 ├── package.json                 (Backend dependencies)
 ├── .gitignore
