@@ -56,7 +56,7 @@ app.use((err, req, res, next) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`🚀 Server is running on port ${PORT}`);
-  console.log(`📁 Upload directories created successfully`);
+  console.log(`Server is running on port ${PORT}`);
+  console.log(`Upload directories created successfully`);
 });
 

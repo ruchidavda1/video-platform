@@ -86,10 +86,10 @@ router.post('/', upload.single('video'), async (req, res) => {
         videoDatabase.set(videoId, updatedData);
         processingProgress.delete(videoId);
         
-        console.log(`✅ Video processing completed: ${videoId}`);
+        console.log(`Video processing completed: ${videoId}`);
       })
       .catch((error) => {
-        console.error(`❌ Video processing failed: ${videoId}`, error);
+        console.error(`Video processing failed: ${videoId}`, error);
         
         const errorData = {
           ...videoData,
