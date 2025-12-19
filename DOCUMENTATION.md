@@ -13,7 +13,6 @@ Detailed technical documentation for the Video Platform application.
 5. [Architecture](#architecture)
 6. [Assumptions](#assumptions)
 7. [Challenges & Solutions](#challenges--solutions)
-8. [AI-Assisted Development](#ai-assisted-development)
 
 ---
 

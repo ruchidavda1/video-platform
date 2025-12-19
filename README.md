@@ -182,7 +182,7 @@ For detailed documentation, see [DOCUMENTATION.md](DOCUMENTATION.md):
 
 ## AI-Assisted Development
 
-This project was built with **Claude 4 Sonnet AI** through **Cursor IDE**, demonstrating modern AI-assisted development workflows. See [DOCUMENTATION.md](DOCUMENTATION.md#ai-assisted-development) for details.
+This project was built with **Claude 4 Sonnet AI** through **Cursor IDE**, demonstrating modern AI-assisted development workflows.
 
 ---
 
