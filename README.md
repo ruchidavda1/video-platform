@@ -54,35 +54,35 @@ Open **http://localhost:3000** in your browser.
 
 ## Screenshots
 
-<img src="frontend/src/images/Screenshot-2025-12-19-at-7.17.18-PM.png" width="500"/>
+<img src="frontend/src/images/Screenshot-2025-12-19-at-7.17.18-PM.png" width="300"/>
 
-<img src="frontend/src/images/Screenshot-2025-12-19-at-7.17.40-PM.png" width="500"/>
+<img src="frontend/src/images/Screenshot-2025-12-19-at-7.17.40-PM.png" width="300"/>
 
-<img src="frontend/src/images/Screenshot-2025-12-19-at-7.19.46-PM.png" width="500"/>
+<img src="frontend/src/images/Screenshot-2025-12-19-at-7.19.46-PM.png" width="300"/>
 
-<img src="frontend/src/images/Screenshot-2025-12-19-at-7.19.49-PM.png" width="500"/>
+<img src="frontend/src/images/Screenshot-2025-12-19-at-7.19.49-PM.png" width="300"/>
 
-<img src="frontend/src/images/Screenshot-2025-12-19-at-7.19.54-PM.png" width="500"/>
+<img src="frontend/src/images/Screenshot-2025-12-19-at-7.19.54-PM.png" width="300"/>
 
-<img src="frontend/src/images/Screenshot-2025-12-19-at-7.20.01-PM.png" width="500"/>
+<img src="frontend/src/images/Screenshot-2025-12-19-at-7.20.01-PM.png" width="300"/>
 
-<img src="frontend/src/images/Screenshot-2025-12-19-at-7.20.12-PM.png" width="500"/>
+<img src="frontend/src/images/Screenshot-2025-12-19-at-7.20.12-PM.png" width="300"/>
 
-<img src="frontend/src/images/Screenshot-2025-12-19-at-7.20.28-PM.png" width="500"/>
+<img src="frontend/src/images/Screenshot-2025-12-19-at-7.20.28-PM.png" width="300"/>
 
-<img src="frontend/src/images/Screenshot-2025-12-19-at-7.20.44-PM.png" width="500"/>
+<img src="frontend/src/images/Screenshot-2025-12-19-at-7.20.44-PM.png" width="300"/>
 
-<img src="frontend/src/images/Screenshot-2025-12-19-at-7.21.05-PM.png" width="500"/>
+<img src="frontend/src/images/Screenshot-2025-12-19-at-7.21.05-PM.png" width="300"/>
 
-<img src="frontend/src/images/Screenshot-2025-12-19-at-7.21.31-PM.png" width="500"/>
+<img src="frontend/src/images/Screenshot-2025-12-19-at-7.21.31-PM.png" width="300"/>
 
-<img src="frontend/src/images/Screenshot-2025-12-19-at-7.22.45-PM.png" width="500"/>
+<img src="frontend/src/images/Screenshot-2025-12-19-at-7.22.45-PM.png" width="300"/>
 
-<img src="frontend/src/images/Screenshot-2025-12-19-at-7.22.59-PM.png" width="500"/>
+<img src="frontend/src/images/Screenshot-2025-12-19-at-7.22.59-PM.png" width="300"/>
 
-<img src="frontend/src/images/Screenshot-2025-12-19-at-7.23.03-PM.png" width="500"/>
+<img src="frontend/src/images/Screenshot-2025-12-19-at-7.23.03-PM.png" width="300"/>
 
-<img src="frontend/src/images/Screenshot-2025-12-19-at-7.23.11-PM.png" width="500"/>
+<img src="frontend/src/images/Screenshot-2025-12-19-at-7.23.11-PM.png" width="300"/>
 
 ---
 
