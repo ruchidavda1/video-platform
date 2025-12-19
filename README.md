@@ -42,6 +42,56 @@ A professional full-stack video upload and streaming platform built with React a
 
 ---
 
+## Screenshots
+
+### Application Interface
+
+![Upload Interface](./frontend/src/images/Screenshot%202025-12-19%20at%207.17.18%20PM.png)
+
+![Upload Form](./frontend/src/images/Screenshot%202025-12-19%20at%207.17.40%20PM.png)
+
+![File Selection](./frontend/src/images/Screenshot%202025-12-19%20at%207.17.48%20PM.png)
+
+![Video Upload Progress](./frontend/src/images/Screenshot%202025-12-19%20at%207.17.55%20PM.png)
+
+![Processing Status](./frontend/src/images/Screenshot%202025-12-19%20at%207.18.07%20PM.png)
+
+![Video Grid](./frontend/src/images/Screenshot%202025-12-19%20at%207.18.14%20PM.png)
+
+![Video Thumbnails](./frontend/src/images/Screenshot%202025-12-19%20at%207.18.17%20PM.png)
+
+![Video Details](./frontend/src/images/Screenshot%202025-12-19%20at%207.18.22%20PM.png)
+
+### Video Player
+
+![Custom Video Player](./frontend/src/images/Screenshot%202025-12-19%20at%207.19.46%20PM.png)
+
+![Player Controls](./frontend/src/images/Screenshot%202025-12-19%20at%207.19.49%20PM.png)
+
+![Resolution Selection](./frontend/src/images/Screenshot%202025-12-19%20at%207.19.54%20PM.png)
+
+![Playback Speed Control](./frontend/src/images/Screenshot%202025-12-19%20at%207.20.01%20PM.png)
+
+![Volume Controls](./frontend/src/images/Screenshot%202025-12-19%20at%207.20.12%20PM.png)
+
+![Video Progress Bar](./frontend/src/images/Screenshot%202025-12-19%20at%207.20.28%20PM.png)
+
+![Fullscreen Mode](./frontend/src/images/Screenshot%202025-12-19%20at%207.20.44%20PM.png)
+
+![Player in Action](./frontend/src/images/Screenshot%202025-12-19%20at%207.21.05%20PM.png)
+
+![Multi-Resolution Display](./frontend/src/images/Screenshot%202025-12-19%20at%207.21.31%20PM.png)
+
+![Video Library](./frontend/src/images/Screenshot%202025-12-19%20at%207.22.45%20PM.png)
+
+![Processing Complete](./frontend/src/images/Screenshot%202025-12-19%20at%207.22.59%20PM.png)
+
+![Video Management](./frontend/src/images/Screenshot%202025-12-19%20at%207.23.03%20PM.png)
+
+![Application Overview](./frontend/src/images/Screenshot%202025-12-19%20at%207.23.11%20PM.png)
+
+---
+
 ## Technology Stack
 
 ### Backend
