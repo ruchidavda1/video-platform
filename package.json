@@ -1,5 +1,5 @@
 {
-  "name": "maxplay-video-platform",
+  "name": "video-platform",
   "version": "1.0.0",
   "description": "Video upload and playback platform with multi-resolution support",
   "main": "server.js",

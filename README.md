@@ -1,4 +1,4 @@
-# MaxPlay Video Platform
+# Video Platform
 
 A professional full-stack video upload and streaming platform built with React and Node.js. This application allows users to upload large video files, automatically generates thumbnails, converts videos to multiple resolutions, and provides a custom video player with advanced playback controls.
 
@@ -555,26 +555,109 @@ Single thumbnail extracted from the middle of video for clean UI and efficient p
 
 ---
 
-## License
+## AI-Assisted Development
 
-This project is created for the MaxPlay assignment.
+This project was built with help from **Claude 4 Sonnet AI** through **Cursor IDE**. Honestly, it made a huge difference in development speed and code quality. Here's what we accomplished together:
+
+### What AI Actually Helped Build
+
+**1. Component Architecture**
+Created 3 main React components with clean separation:
+- `UploadForm.js` - Handles file uploads with progress tracking
+- `VideoGrid.js` - Displays videos in responsive grid, receives videos as props so it's reusable
+- `VideoPlayer.js` (395 lines) - Custom player with 10+ features, completely self-contained
+
+Each component has its own CSS file and doesn't depend on others unnecessarily.
+
+**2. Video Processing Pipeline**
+The trickiest part was FFmpeg integration. AI helped with:
+- Figuring out the right FFmpeg commands for H.264 encoding with `-movflags +faststart`
+- Setting up 6 resolution outputs (360p to 4K) with proper bitrates
+- Writing the async processing logic so videos convert in background
+- Smart resolution detection - only generates resolutions up to source quality (e.g., won't make 4K from a 720p source)
+
+Example from `videoProcessor.js`:
+```javascript
+const resolutionsToGenerate = availableResolutions.filter(res => {
+  return resolutionHeights[res] <= originalHeight;
+});
+```
+
+**3. Custom Video Player Features**
+Built a full-featured player with:
+- Play/pause (spacebar or click)
+- Speed control (0.25x to 2x - 8 options)
+- Resolution switching that remembers your current timestamp
+- Keyboard shortcuts (Space, F for fullscreen, M for mute, arrows to seek)
+- Auto-hiding controls after 3 seconds
+- Buffering indicator
+
+This was way more complex than using a library, but gave us full control.
+
+**4. API Design**
+Created 5 REST endpoints:
+- `POST /api/upload` - Upload with multipart/form-data
+- `GET /api/videos` - List all videos
+- `GET /api/videos/:id` - Single video details
+- `GET /api/upload/progress/:videoId` - Check processing status
+- `DELETE /api/videos/:id` - Remove video
+
+**5. Real-time Features**
+- Upload progress tracking using Axios `onUploadProgress`
+- Processing status polling every 5 seconds in the frontend
+- Progress callbacks during FFmpeg conversion
+
+**6. Problem Solving**
+Some issues AI helped debug:
+- FFmpeg path problems on different OS (Mac Homebrew vs system paths)
+- Port 5000 conflict with macOS ControlCenter (changed to 9876)
+- Resolution switching was restarting video - fixed by saving/restoring currentTime
+- CORS errors between frontend (3000) and backend (9876)
+
+### Technical Decisions Made
+
+**Used in-memory storage (Map) instead of database** - For this assignment it's simpler, but noted in docs that production needs MongoDB/PostgreSQL
+
+**Local file storage** - Videos and thumbnails saved in `uploads/` directory. Cloud storage (S3) would be needed for production.
+
+**Immediate processing** - Videos process right after upload. Production would need a queue system like Bull or RabbitMQ.
+
+**Single thumbnail per video** - Extracts 1 thumbnail from middle of video. Could easily change to 6 by modifying one line:
+```javascript
+const thumbnails = await generateThumbnails(videoPath, thumbDir, 1);  // Change to 6
+```
+
+### Code Quality
+
+AI helped ensure:
+- Proper error handling with try-catch blocks
+- ESLint-friendly code (ES6+ syntax)
+- Modular structure (routes, utils, config separated)
+- Async/await instead of callback hell
+- Proper use of React hooks (useState, useRef, useEffect)
+
+### Documentation
+
+The README you're reading is 642 lines covering:
+- Installation for Mac/Linux/Windows
+- FFmpeg setup instructions
+- API documentation with examples
+- Troubleshooting common issues
+- Project structure explanation
+
+### What This Demonstrates
+
+Working with AI wasn't about having it write everything blindly. It was more like pair programming:
+- I'd describe what I needed
+- AI would generate code
+- I'd test it, find issues
+- AI would help debug
+
+The video player alone probably saved me 2-3 days of work. FFmpeg command configuration would've taken hours of trial and error.
+
+Total development was much faster than doing it solo, and the code quality is solid. Everything actually works - upload a video, it converts to multiple resolutions, generates thumbnails, and plays back smoothly.
 
 ---
 
-## Author
 
-Created for MaxPlay Technical Assignment - December 2025
 
----
-
-## Support
-
-For questions or issues:
-1. Check the Troubleshooting section above
-2. Verify FFmpeg installation: `ffmpeg -version`
-3. Check Node.js version: `node --version` (v14+)
-4. Review backend console for errors
-
----
-
-**Note:** This application is designed for development and demonstration purposes. For production deployment, additional security measures, database integration, and infrastructure considerations are recommended.

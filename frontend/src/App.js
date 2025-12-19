@@ -58,7 +58,7 @@ function App() {
     <div className="App">
       <header className="app-header">
         <div className="container">
-          <h1 className="logo">🎬 MaxPlay</h1>
+          <h1 className="logo">🎬 Video Platform</h1>
           <p className="tagline">Professional Video Platform</p>
         </div>
       </header>
@@ -85,7 +85,7 @@ function App() {
 
       <footer className="app-footer">
         <div className="container">
-          <p>&copy; 2025 MaxPlay Video Platform. Built with React & Node.js</p>
+          <p>&copy; 2025 Video Platform. Built with React & Node.js</p>
         </div>
       </footer>
     </div>
