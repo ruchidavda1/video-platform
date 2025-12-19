@@ -2,22 +2,20 @@
 
 A professional full-stack video upload and streaming platform built with React and Node.js. Upload large video files, automatically generate thumbnails, convert to multiple resolutions, and stream with a custom video player.
 
-<img src="frontend/src/images/Screenshot-2025-12-19-at-7.17.18-PM.png" alt="Video Platform Interface" width="600"/>
+---
+
+## Key Features
+
+- Upload videos up to 5GB with real-time progress tracking
+- Automatic multi-resolution conversion (360p to 4K)
+- Auto-generated thumbnails from your videos
+- Custom video player with speed control, resolution switching, fullscreen
+- Modern, responsive UI with beautiful animations
+- Real-time processing status updates
 
 ---
 
-## ✨ Key Features
-
-- 🎥 **Upload videos up to 5GB** with real-time progress tracking
-- 🎬 **Automatic multi-resolution conversion** (360p to 4K)
-- 🖼️ **Auto-generated thumbnails** from your videos
-- ▶️ **Custom video player** with speed control, resolution switching, fullscreen
-- 🎨 **Modern, responsive UI** with beautiful animations
-- ⚡ **Real-time processing status** updates
-
----
-
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -54,34 +52,53 @@ Open **http://localhost:3000** in your browser.
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
-<details>
-<summary><b>Click to view screenshots</b></summary>
+<img src="frontend/src/images/Screenshot-2025-12-19-at-7.17.18-PM.png" width="500"/>
 
-### Upload Interface
-<img src="frontend/src/images/Screenshot-2025-12-19-at-7.17.40-PM.png" alt="Upload Form" width="500"/>
+<img src="frontend/src/images/Screenshot-2025-12-19-at-7.17.40-PM.png" width="500"/>
 
-### Video Processing
-<img src="frontend/src/images/Screenshot-2025-12-19-at-7.17.55-PM.png" alt="Upload Progress" width="500"/>
+<img src="frontend/src/images/Screenshot-2025-12-19-at-7.17.48-PM.png" width="500"/>
 
-### Video Library
-<img src="frontend/src/images/Screenshot-2025-12-19-at-7.18.14-PM.png" alt="Video Grid" width="500"/>
+<img src="frontend/src/images/Screenshot-2025-12-19-at-7.17.55-PM.png" width="500"/>
 
-### Custom Video Player
-<img src="frontend/src/images/Screenshot-2025-12-19-at-7.19.46-PM.png" alt="Video Player" width="500"/>
+<img src="frontend/src/images/Screenshot-2025-12-19-at-7.18.07-PM.png" width="500"/>
 
-### Resolution Selection
-<img src="frontend/src/images/Screenshot-2025-12-19-at-7.19.54-PM.png" alt="Resolution Options" width="500"/>
+<img src="frontend/src/images/Screenshot-2025-12-19-at-7.18.14-PM.png" width="500"/>
 
-### Speed Control
-<img src="frontend/src/images/Screenshot-2025-12-19-at-7.20.01-PM.png" alt="Playback Speed" width="500"/>
+<img src="frontend/src/images/Screenshot-2025-12-19-at-7.18.17-PM.png" width="500"/>
 
-</details>
+<img src="frontend/src/images/Screenshot-2025-12-19-at-7.18.22-PM.png" width="500"/>
+
+<img src="frontend/src/images/Screenshot-2025-12-19-at-7.19.46-PM.png" width="500"/>
+
+<img src="frontend/src/images/Screenshot-2025-12-19-at-7.19.49-PM.png" width="500"/>
+
+<img src="frontend/src/images/Screenshot-2025-12-19-at-7.19.54-PM.png" width="500"/>
+
+<img src="frontend/src/images/Screenshot-2025-12-19-at-7.20.01-PM.png" width="500"/>
+
+<img src="frontend/src/images/Screenshot-2025-12-19-at-7.20.12-PM.png" width="500"/>
+
+<img src="frontend/src/images/Screenshot-2025-12-19-at-7.20.28-PM.png" width="500"/>
+
+<img src="frontend/src/images/Screenshot-2025-12-19-at-7.20.44-PM.png" width="500"/>
+
+<img src="frontend/src/images/Screenshot-2025-12-19-at-7.21.05-PM.png" width="500"/>
+
+<img src="frontend/src/images/Screenshot-2025-12-19-at-7.21.31-PM.png" width="500"/>
+
+<img src="frontend/src/images/Screenshot-2025-12-19-at-7.22.45-PM.png" width="500"/>
+
+<img src="frontend/src/images/Screenshot-2025-12-19-at-7.22.59-PM.png" width="500"/>
+
+<img src="frontend/src/images/Screenshot-2025-12-19-at-7.23.03-PM.png" width="500"/>
+
+<img src="frontend/src/images/Screenshot-2025-12-19-at-7.23.11-PM.png" width="500"/>
 
 ---
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 **Backend:** Node.js, Express, Multer, FFmpeg  
 **Frontend:** React 18, Axios, React Icons  
@@ -89,7 +106,7 @@ Open **http://localhost:3000** in your browser.
 
 ---
 
-## 📖 Usage
+## Usage
 
 1. **Upload**: Click "Choose Video File", add title/description, and upload
 2. **Processing**: Wait for automatic thumbnail generation and multi-resolution conversion
@@ -102,7 +119,7 @@ Open **http://localhost:3000** in your browser.
 
 ---
 
-## 🔧 Configuration
+## Configuration
 
 Default port: `9876` (backend) and `3000` (frontend)
 
@@ -114,7 +131,7 @@ NODE_ENV=development
 
 ---
 
-## ⚠️ Common Issues
+## Common Issues
 
 **FFmpeg not found?**  
 Install FFmpeg: `brew install ffmpeg` (Mac) or see [docs](DOCUMENTATION.md#troubleshooting)
@@ -127,7 +144,7 @@ Check backend console for errors and verify FFmpeg installation: `ffmpeg -versio
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 Video Platform Assignment/
@@ -144,7 +161,7 @@ Video Platform Assignment/
 
 ---
 
-## 📚 Documentation
+## Documentation
 
 For detailed documentation, see [DOCUMENTATION.md](DOCUMENTATION.md):
 - API Reference
@@ -155,16 +172,16 @@ For detailed documentation, see [DOCUMENTATION.md](DOCUMENTATION.md):
 
 ---
 
-## 🎯 Design Decisions
+## Design Decisions
 
-- **In-memory storage** for simplicity (use database for production)
-- **Local file storage** (use cloud storage for production)
-- **Immediate processing** (use queue system for production)
-- **Smart resolution conversion** - only generates up to source quality
+- In-memory storage for simplicity (use database for production)
+- Local file storage (use cloud storage for production)
+- Immediate processing (use queue system for production)
+- Smart resolution conversion - only generates up to source quality
 
 ---
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
 - User authentication
 - Cloud storage (AWS S3)
@@ -175,10 +192,10 @@ For detailed documentation, see [DOCUMENTATION.md](DOCUMENTATION.md):
 
 ---
 
-## 🤖 AI-Assisted Development
+## AI-Assisted Development
 
 This project was built with **Claude 4 Sonnet AI** through **Cursor IDE**, demonstrating modern AI-assisted development workflows. See [DOCUMENTATION.md](DOCUMENTATION.md#ai-assisted-development) for details.
 
 ---
 
-**Built with ❤️ using React, Node.js, and FFmpeg**
+**Built with React, Node.js, and FFmpeg**
