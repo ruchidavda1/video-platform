@@ -58,18 +58,6 @@ Open **http://localhost:3000** in your browser.
 
 <img src="frontend/src/images/Screenshot-2025-12-19-at-7.17.40-PM.png" width="500"/>
 
-<img src="frontend/src/images/Screenshot-2025-12-19-at-7.17.48-PM.png" width="500"/>
-
-<img src="frontend/src/images/Screenshot-2025-12-19-at-7.17.55-PM.png" width="500"/>
-
-<img src="frontend/src/images/Screenshot-2025-12-19-at-7.18.07-PM.png" width="500"/>
-
-<img src="frontend/src/images/Screenshot-2025-12-19-at-7.18.14-PM.png" width="500"/>
-
-<img src="frontend/src/images/Screenshot-2025-12-19-at-7.18.17-PM.png" width="500"/>
-
-<img src="frontend/src/images/Screenshot-2025-12-19-at-7.18.22-PM.png" width="500"/>
-
 <img src="frontend/src/images/Screenshot-2025-12-19-at-7.19.46-PM.png" width="500"/>
 
 <img src="frontend/src/images/Screenshot-2025-12-19-at-7.19.49-PM.png" width="500"/>
