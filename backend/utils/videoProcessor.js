@@ -150,7 +150,7 @@ const processVideo = async (videoPath, videoId, baseDir, onProgress) => {
     });
 
     // Get video metadata
-    console.log('📊 Getting video metadata...');
+    console.log('Getting video metadata...');
     results.metadata = await getVideoMetadata(videoPath);
     
     const videoStream = results.metadata.streams.find(s => s.codec_type === 'video');
@@ -159,7 +159,7 @@ const processVideo = async (videoPath, videoId, baseDir, onProgress) => {
     
     console.log(`Original resolution: ${originalWidth}x${originalHeight}`);
 
-    console.log('🖼️  Generating thumbnail...');
+    console.log('Generating thumbnail...');
     if (onProgress) onProgress({ stage: 'thumbnails', percent: 0 });
     
     const thumbnails = await generateThumbnails(videoPath, thumbDir, 1);
@@ -187,7 +187,7 @@ const processVideo = async (videoPath, videoId, baseDir, onProgress) => {
       resolutionsToGenerate.push('360p');
     }
 
-    console.log(`📹 Converting to resolutions: ${resolutionsToGenerate.join(', ')}`);
+    console.log(`Converting to resolutions: ${resolutionsToGenerate.join(', ')}`);
 
     // Convert to multiple resolutions
     for (let i = 0; i < resolutionsToGenerate.length; i++) {
@@ -228,7 +228,7 @@ const processVideo = async (videoPath, videoId, baseDir, onProgress) => {
     // Delete temporary file
     if (fs.existsSync(videoPath)) {
       fs.unlinkSync(videoPath);
-      console.log('🗑️  Temporary file deleted');
+      console.log('Temporary file deleted');
     }
 
     return results;
