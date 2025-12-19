@@ -46,49 +46,49 @@ A professional full-stack video upload and streaming platform built with React a
 
 ### Application Interface
 
-<img src="frontend/src/images/Screenshot-2025-12-19-at-7.17.18 PM.png" alt="Upload Interface" width="800"/>
+<img src="frontend/src/images/Screenshot-2025-12-19-at-7.17.18-PM.png" alt="Upload Interface" width="800"/>
 
-<img src="frontend/src/images/Screenshot-2025-12-19-at-7.17.40 PM.png" alt="Upload Form" width="800"/>
+<img src="frontend/src/images/Screenshot-2025-12-19-at-7.17.40-PM.png" alt="Upload Form" width="800"/>
 
-<img src="frontend/src/images/Screenshot-2025-12-19-at-7.17.48 PM.png" alt="File Selection" width="800"/>
+<img src="frontend/src/images/Screenshot-2025-12-19-at-7.17.48-PM.png" alt="File Selection" width="800"/>
 
-<img src="frontend/src/images/Screenshot-2025-12-19-at-7.17.55 PM.png" alt="Video Upload Progress" width="800"/>
+<img src="frontend/src/images/Screenshot-2025-12-19-at-7.17.55-PM.png" alt="Video Upload Progress" width="800"/>
 
-<img src="frontend/src/images/Screenshot-2025-12-19-at-7.18.07 PM.png" alt="Processing Status" width="800"/>
+<img src="frontend/src/images/Screenshot-2025-12-19-at-7.18.07-PM.png" alt="Processing Status" width="800"/>
 
-<img src="frontend/src/images/Screenshot-2025-12-19-at-7.18.14 PM.png" alt="Video Grid" width="800"/>
+<img src="frontend/src/images/Screenshot-2025-12-19-at-7.18.14-PM.png" alt="Video Grid" width="800"/>
 
-<img src="frontend/src/images/Screenshot-2025-12-19-at-7.18.17 PM.png" alt="Video Thumbnails" width="800"/>
+<img src="frontend/src/images/Screenshot-2025-12-19-at-7.18.17-PM.png" alt="Video Thumbnails" width="800"/>
 
-<img src="frontend/src/images/Screenshot-2025-12-19-at-7.18.22 PM.png" alt="Video Details" width="800"/>
+<img src="frontend/src/images/Screenshot-2025-12-19-at-7.18.22-PM.png" alt="Video Details" width="800"/>
 
 ### Video Player
 
-<img src="frontend/src/images/Screenshot-2025-12-19-at-7.19.46 PM.png" alt="Custom Video Player" width="800"/>
+<img src="frontend/src/images/Screenshot-2025-12-19-at-7.19.46-PM.png" alt="Custom Video Player" width="800"/>
 
-<img src="frontend/src/images/Screenshot-2025-12-19-at-7.19.49 PM.png" alt="Player Controls" width="800"/>
+<img src="frontend/src/images/Screenshot-2025-12-19-at-7.19.49-PM.png" alt="Player Controls" width="800"/>
 
-<img src="frontend/src/images/Screenshot-2025-12-19-at-7.19.54 PM.png" alt="Resolution Selection" width="800"/>
+<img src="frontend/src/images/Screenshot-2025-12-19-at-7.19.54-PM.png" alt="Resolution Selection" width="800"/>
 
-<img src="frontend/src/images/Screenshot-2025-12-19-at-7.20.01 PM.png" alt="Playback Speed Control" width="800"/>
+<img src="frontend/src/images/Screenshot-2025-12-19-at-7.20.01-PM.png" alt="Playback Speed Control" width="800"/>
 
-<img src="frontend/src/images/Screenshot-2025-12-19-at-7.20.12 PM.png" alt="Volume Controls" width="800"/>
+<img src="frontend/src/images/Screenshot-2025-12-19-at-7.20.12-PM.png" alt="Volume Controls" width="800"/>
 
-<img src="frontend/src/images/Screenshot-2025-12-19-at-7.20.28 PM.png" alt="Video Progress Bar" width="800"/>
+<img src="frontend/src/images/Screenshot-2025-12-19-at-7.20.28-PM.png" alt="Video Progress Bar" width="800"/>
 
-<img src="frontend/src/images/Screenshot-2025-12-19-at-7.20.44 PM.png" alt="Fullscreen Mode" width="800"/>
+<img src="frontend/src/images/Screenshot-2025-12-19-at-7.20.44-PM.png" alt="Fullscreen Mode" width="800"/>
 
-<img src="frontend/src/images/Screenshot-2025-12-19-at-7.21.05 PM.png" alt="Player in Action" width="800"/>
+<img src="frontend/src/images/Screenshot-2025-12-19-at-7.21.05-PM.png" alt="Player in Action" width="800"/>
 
-<img src="frontend/src/images/Screenshot-2025-12-19-at-7.21.31 PM.png" alt="Multi-Resolution Display" width="800"/>
+<img src="frontend/src/images/Screenshot-2025-12-19-at-7.21.31-PM.png" alt="Multi-Resolution Display" width="800"/>
 
-<img src="frontend/src/images/Screenshot-2025-12-19-at-7.22.45 PM.png" alt="Video Library" width="800"/>
+<img src="frontend/src/images/Screenshot-2025-12-19-at-7.22.45-PM.png" alt="Video Library" width="800"/>
 
-<img src="frontend/src/images/Screenshot-2025-12-19-at-7.22.59 PM.png" alt="Processing Complete" width="800"/>
+<img src="frontend/src/images/Screenshot-2025-12-19-at-7.22.59-PM.png" alt="Processing Complete" width="800"/>
 
-<img src="frontend/src/images/Screenshot-2025-12-19-at-7.23.03 PM.png" alt="Video Management" width="800"/>
+<img src="frontend/src/images/Screenshot-2025-12-19-at-7.23.03-PM.png" alt="Video Management" width="800"/>
 
-<img src="frontend/src/images/Screenshot-2025-12-19-at-7.23.11 PM.png" alt="Application Overview" width="800"/>
+<img src="frontend/src/images/Screenshot-2025-12-19-at-7.23.11-PM.png" alt="Application Overview" width="800"/>
 
 ---
 
