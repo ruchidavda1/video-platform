@@ -46,49 +46,49 @@ A professional full-stack video upload and streaming platform built with React a
 
 ### Application Interface
 
-![Upload Interface](./frontend/src/images/Screenshot%202025-12-19%20at%207.17.18%20PM.png)
+<img src="frontend/src/images/Screenshot 2025-12-19 at 7.17.18 PM.png" alt="Upload Interface" width="800"/>
 
-![Upload Form](./frontend/src/images/Screenshot%202025-12-19%20at%207.17.40%20PM.png)
+<img src="frontend/src/images/Screenshot 2025-12-19 at 7.17.40 PM.png" alt="Upload Form" width="800"/>
 
-![File Selection](./frontend/src/images/Screenshot%202025-12-19%20at%207.17.48%20PM.png)
+<img src="frontend/src/images/Screenshot 2025-12-19 at 7.17.48 PM.png" alt="File Selection" width="800"/>
 
-![Video Upload Progress](./frontend/src/images/Screenshot%202025-12-19%20at%207.17.55%20PM.png)
+<img src="frontend/src/images/Screenshot 2025-12-19 at 7.17.55 PM.png" alt="Video Upload Progress" width="800"/>
 
-![Processing Status](./frontend/src/images/Screenshot%202025-12-19%20at%207.18.07%20PM.png)
+<img src="frontend/src/images/Screenshot 2025-12-19 at 7.18.07 PM.png" alt="Processing Status" width="800"/>
 
-![Video Grid](./frontend/src/images/Screenshot%202025-12-19%20at%207.18.14%20PM.png)
+<img src="frontend/src/images/Screenshot 2025-12-19 at 7.18.14 PM.png" alt="Video Grid" width="800"/>
 
-![Video Thumbnails](./frontend/src/images/Screenshot%202025-12-19%20at%207.18.17%20PM.png)
+<img src="frontend/src/images/Screenshot 2025-12-19 at 7.18.17 PM.png" alt="Video Thumbnails" width="800"/>
 
-![Video Details](./frontend/src/images/Screenshot%202025-12-19%20at%207.18.22%20PM.png)
+<img src="frontend/src/images/Screenshot 2025-12-19 at 7.18.22 PM.png" alt="Video Details" width="800"/>
 
 ### Video Player
 
-![Custom Video Player](./frontend/src/images/Screenshot%202025-12-19%20at%207.19.46%20PM.png)
+<img src="frontend/src/images/Screenshot 2025-12-19 at 7.19.46 PM.png" alt="Custom Video Player" width="800"/>
 
-![Player Controls](./frontend/src/images/Screenshot%202025-12-19%20at%207.19.49%20PM.png)
+<img src="frontend/src/images/Screenshot 2025-12-19 at 7.19.49 PM.png" alt="Player Controls" width="800"/>
 
-![Resolution Selection](./frontend/src/images/Screenshot%202025-12-19%20at%207.19.54%20PM.png)
+<img src="frontend/src/images/Screenshot 2025-12-19 at 7.19.54 PM.png" alt="Resolution Selection" width="800"/>
 
-![Playback Speed Control](./frontend/src/images/Screenshot%202025-12-19%20at%207.20.01%20PM.png)
+<img src="frontend/src/images/Screenshot 2025-12-19 at 7.20.01 PM.png" alt="Playback Speed Control" width="800"/>
 
-![Volume Controls](./frontend/src/images/Screenshot%202025-12-19%20at%207.20.12%20PM.png)
+<img src="frontend/src/images/Screenshot 2025-12-19 at 7.20.12 PM.png" alt="Volume Controls" width="800"/>
 
-![Video Progress Bar](./frontend/src/images/Screenshot%202025-12-19%20at%207.20.28%20PM.png)
+<img src="frontend/src/images/Screenshot 2025-12-19 at 7.20.28 PM.png" alt="Video Progress Bar" width="800"/>
 
-![Fullscreen Mode](./frontend/src/images/Screenshot%202025-12-19%20at%207.20.44%20PM.png)
+<img src="frontend/src/images/Screenshot 2025-12-19 at 7.20.44 PM.png" alt="Fullscreen Mode" width="800"/>
 
-![Player in Action](./frontend/src/images/Screenshot%202025-12-19%20at%207.21.05%20PM.png)
+<img src="frontend/src/images/Screenshot 2025-12-19 at 7.21.05 PM.png" alt="Player in Action" width="800"/>
 
-![Multi-Resolution Display](./frontend/src/images/Screenshot%202025-12-19%20at%207.21.31%20PM.png)
+<img src="frontend/src/images/Screenshot 2025-12-19 at 7.21.31 PM.png" alt="Multi-Resolution Display" width="800"/>
 
-![Video Library](./frontend/src/images/Screenshot%202025-12-19%20at%207.22.45%20PM.png)
+<img src="frontend/src/images/Screenshot 2025-12-19 at 7.22.45 PM.png" alt="Video Library" width="800"/>
 
-![Processing Complete](./frontend/src/images/Screenshot%202025-12-19%20at%207.22.59%20PM.png)
+<img src="frontend/src/images/Screenshot 2025-12-19 at 7.22.59 PM.png" alt="Processing Complete" width="800"/>
 
-![Video Management](./frontend/src/images/Screenshot%202025-12-19%20at%207.23.03%20PM.png)
+<img src="frontend/src/images/Screenshot 2025-12-19 at 7.23.03 PM.png" alt="Video Management" width="800"/>
 
-![Application Overview](./frontend/src/images/Screenshot%202025-12-19%20at%207.23.11%20PM.png)
+<img src="frontend/src/images/Screenshot 2025-12-19 at 7.23.11 PM.png" alt="Application Overview" width="800"/>
 
 ---
 
