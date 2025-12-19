@@ -715,7 +715,5 @@ Beyond basic requirements:
 - Multi-language support
 - HLS/DASH adaptive streaming
 
----
 
-**For questions or issues, please refer to the [Troubleshooting](#troubleshooting) section or check the backend console logs.**
 
