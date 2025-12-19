@@ -11,8 +11,9 @@ Detailed technical documentation for the Video Platform application.
 3. [Configuration](#configuration)
 4. [Troubleshooting](#troubleshooting)
 5. [Architecture](#architecture)
-6. [Challenges & Solutions](#challenges--solutions)
-7. [AI-Assisted Development](#ai-assisted-development)
+6. [Assumptions](#assumptions)
+7. [Challenges & Solutions](#challenges--solutions)
+8. [AI-Assisted Development](#ai-assisted-development)
 
 ---
 
@@ -440,6 +441,25 @@ Video Platform Assignment/
 - Fullscreen support
 - Volume control
 - Progress tracking
+
+---
+
+## Assumptions
+
+#### 1. Development/Demo Environment
+This is a proof-of-concept for assignment demonstration, not production-ready. Video metadata is stored in-memory (lost on server restart), local file storage is used, and no database is required. Suitable for single-user demo purposes only.
+
+#### 2. FFmpeg Installed and Configured
+FFmpeg must be pre-installed on the system and accessible via PATH. Video processing entirely depends on this external dependency with no fallback option.
+
+#### 3. Single-User System with Trusted Users
+No authentication, authorization, or user management. All videos are publicly accessible. Assumes trusted users with basic file validation only and no security measures against malicious uploads or attacks.
+
+#### 4. Sufficient System Resources
+Server has adequate CPU (8+ cores for 4K), RAM (16GB+ for large videos), and storage (10GB+ minimum) for video conversion. Videos processed sequentially without concurrent processing or resource throttling.
+
+#### 5. Modern Browser and Stable Network
+Users have updated browsers supporting HTML5 video, ES6+ JavaScript, and stable internet for large file uploads (no resume capability for interrupted uploads).
 
 ---
 
